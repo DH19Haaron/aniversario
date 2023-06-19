@@ -1,0 +1,112 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+background-color: #181717;   
+}
+
+ /* Inicio de menu*/ 
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.fondo video{
+width: 100%;
+height: 100%;
+
+}
+ 
+.fondo h1{
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'bebas neve', cursive;
+    color: #f7f3f3;
+    margin-bottom: 35px;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.btn1{
+    display: inline-block;
+    padding: 13px 35px;
+    background-color: #df5d5d;
+    color: #f7f1f1;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 25px;
+    
+}
+.btn1:hover{
+    background-color: #e91717;
+}
+
+   
+.imagen_fondo{
+        background-image: url(imagenes/fondoimg.jpeg);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        height: 30em;
+        width: 100%;
+    }
+.imagen_fondo p{
+    font-size: 30px;
+    line-height: 50px;
+    font-family: 'bebas neve', cursive;
+    color: #faf5f5;
+    margin-bottom: 35px;
+    text-align: center;
+    position: absolute;
+}
+.contexto img{
+    border-radius: 25%;
+   width: 500px;
+   height: 400px;
+   padding: 0 15px;
+   float: right;
+}
+.modal-body img{
+    width: 250px;
+    border-radius: 15%;
+    margin-right: 22%;
+    display: flex;
+}
+p{
+    padding: 30px;
+    margin: 10px;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: 'bebas neve', cursive;
+    color: #f3eded;
+ 
+}
+h1{
+    font-size: 65px;
+    color: #e75757;
+    font-family: Edwardian Script ITC;
+}
+.vales{
+    margin-left: 8%;
+    
+}
+.vales:hover img{
+   transform:scale(1.1);}
+
+.vales img{
+    border-radius: 30px;
+    border-color: #e91717;
+    margin: 20px;
+    width: 300px;
+    height: 300px;  
+}
