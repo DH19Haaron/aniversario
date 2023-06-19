@@ -52,7 +52,7 @@ height: 100%;
 
    
 .imagen_fondo{
-        background-image: url(imagenes/fondoimg.jpeg);
+        background-image: url(ondoimg.jpeg);
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
